@@ -14,6 +14,7 @@
 		B10984FF269613E600FB0F24 /* TrivalSigningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10984FE269613E600FB0F24 /* TrivalSigningTests.swift */; };
 		B1098509269613E600FB0F24 /* TrivalSigningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1098508269613E600FB0F24 /* TrivalSigningUITests.swift */; };
 		B10985172696144A00FB0F24 /* ci_post_xcodebuild.sh in Resources */ = {isa = PBXBuildFile; fileRef = B10985162696144A00FB0F24 /* ci_post_xcodebuild.sh */; };
+		B1DE44C1269636BD007DFE1D /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1DE44C0269636BD007DFE1D /* ExportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B1098504269613E600FB0F24 /* TrivalSigningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivalSigningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1098508269613E600FB0F24 /* TrivalSigningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivalSigningUITests.swift; sourceTree = "<group>"; };
 		B10985162696144A00FB0F24 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
+		B1DE44C0269636BD007DFE1D /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		B10984E1269613E500FB0F24 = {
 			isa = PBXGroup;
 			children = (
+				B1DE44C0269636BD007DFE1D /* ExportOptions.plist */,
 				B10985152696143100FB0F24 /* ci_scripts */,
 				B10984EC269613E500FB0F24 /* TrivalSigning */,
 				B10984FD269613E600FB0F24 /* TrivalSigningTests */,
@@ -234,6 +237,7 @@
 				B10984F2269613E600FB0F24 /* Assets.xcassets in Resources */,
 				B10984F5269613E600FB0F24 /* Main.storyboard in Resources */,
 				B10985172696144A00FB0F24 /* ci_post_xcodebuild.sh in Resources */,
+				B1DE44C1269636BD007DFE1D /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
