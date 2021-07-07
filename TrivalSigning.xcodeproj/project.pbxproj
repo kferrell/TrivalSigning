@@ -13,6 +13,7 @@
 		B10984F5269613E600FB0F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10984F3269613E600FB0F24 /* Main.storyboard */; };
 		B10984FF269613E600FB0F24 /* TrivalSigningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10984FE269613E600FB0F24 /* TrivalSigningTests.swift */; };
 		B1098509269613E600FB0F24 /* TrivalSigningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1098508269613E600FB0F24 /* TrivalSigningUITests.swift */; };
+		B10985172696144A00FB0F24 /* ci_post_xcodebuild.sh in Resources */ = {isa = PBXBuildFile; fileRef = B10985162696144A00FB0F24 /* ci_post_xcodebuild.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		B10984FE269613E600FB0F24 /* TrivalSigningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivalSigningTests.swift; sourceTree = "<group>"; };
 		B1098504269613E600FB0F24 /* TrivalSigningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivalSigningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1098508269613E600FB0F24 /* TrivalSigningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivalSigningUITests.swift; sourceTree = "<group>"; };
+		B10985162696144A00FB0F24 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		B10984E1269613E500FB0F24 = {
 			isa = PBXGroup;
 			children = (
+				B10985152696143100FB0F24 /* ci_scripts */,
 				B10984EC269613E500FB0F24 /* TrivalSigning */,
 				B10984FD269613E600FB0F24 /* TrivalSigningTests */,
 				B1098507269613E600FB0F24 /* TrivalSigningUITests */,
@@ -114,6 +117,14 @@
 				B1098508269613E600FB0F24 /* TrivalSigningUITests.swift */,
 			);
 			path = TrivalSigningUITests;
+			sourceTree = "<group>";
+		};
+		B10985152696143100FB0F24 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B10985162696144A00FB0F24 /* ci_post_xcodebuild.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 			files = (
 				B10984F2269613E600FB0F24 /* Assets.xcassets in Resources */,
 				B10984F5269613E600FB0F24 /* Main.storyboard in Resources */,
+				B10985172696144A00FB0F24 /* ci_post_xcodebuild.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
